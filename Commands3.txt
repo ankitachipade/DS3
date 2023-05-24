@@ -1,0 +1,2 @@
+mpicc Array_sum.c -o Array_sum
+mpirun -np 4 ./Array_sum
